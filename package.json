@@ -1,0 +1,24 @@
+{
+  "name": "bluepi-todo-automation",
+  "version": "1.0.0",
+  "description": "Automated testing scripts for BluePi QA Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
