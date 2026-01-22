@@ -45,8 +45,10 @@ cd bluepi-todo-automation
 
 ### 2. Install dependencies
 
-```bash
+```
+
 npm install
+
 ```
 
 This will install the following packages:
@@ -56,8 +58,10 @@ This will install the following packages:
 
 ### 3. Install Playwright browsers
 
-```bash
+```
+
 npx playwright install
+
 ```
 
 This downloads Chromium, Firefox, and WebKit browsers needed for testing.
@@ -69,6 +73,7 @@ This downloads Chromium, Firefox, and WebKit browsers needed for testing.
 ### Run all tests
 ```bash
 npx playwright test
+
 ```
 
 ### Run tests with browser visible (headed mode)
@@ -101,6 +106,7 @@ npx playwright test --debug
 ### View test report
 ```bash
 npx playwright show-report
+
 ```
 
 ---
