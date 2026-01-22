@@ -1,24 +1,28 @@
 {
-  "name": "bluepi-todo-automation",
+  "name": "bluepi-playwright-todo-automation",
   "version": "1.0.0",
-  "description": "Automated testing scripts for BluePi QA Challenge",
+  "description": "Playwright automation tests for To-Do List application",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:ui": "npx playwright test --ui",
-    "test:report": "npx playwright show-report"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://abhigyank.github.io/To-Do-List/"
   },
   "keywords": [
     "playwright",
-    "qa",
     "automation",
-    "test"
+    "testing",
+    "typescript",
+    "e2e"
   ],
-  "author": "",
+  "author": "Rkira Helmer",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.40.0",
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
   }
 }
